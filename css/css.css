@@ -119,6 +119,12 @@ float: left;
 }
 */
 
+/*----------------------------*/
+
+.row h2 {
+  font-size: 1.1em;
+}
+
 /*---------------------animações dentro do carrosel-----------------------*/
 
 
@@ -133,7 +139,7 @@ float: left;
     
     border-right: 60px solid transparent;
     border-bottom: 60px solid rgba(76,76,76,.7); 
-    //border-bottom: 60px solid rgba(76,76,76,.7); 
+    border-bottom: 60px solid rgba(76,76,76,.7); 
     -webkit-transform: scale(1, -1);
 
 }
@@ -321,7 +327,7 @@ legend.scheduler-border {
 
 /*-------------------PRODUTOS-----------------*/	
 
-.cxProdutos legend{
+/* .cxProdutos legend{
 	text-align: center;
 }
 
@@ -338,13 +344,13 @@ position: relative;}
 #div5{position: relative;}
 #div6{position: relative;}
 
-.cxProdutos br {clear:both;}
+.cxProdutos br {clear:both;} */
 
 
 
 /*-------------------IMAGENS DE PRODUTOS-----------------*/	
 
-.polaroid{
+/* .polaroid{
     height: 500px;
     overflow: scroll;
     background-color: rgba(232, 236, 239, 0.3);
@@ -352,7 +358,7 @@ position: relative;}
    -webkit-box-shadow: inset 0 0 10px #BFBFBF;
    box-shadow:         inset 0 0 10px #BFBFBF;
    overflow: auto;
-}
+} */
 /*.polaroid img{
   width: 50%;
   padding: 5px 5px 10px 5px;
@@ -364,7 +370,7 @@ position: relative;}
   margin: 20px 5%;
 
 }*/
-
+/* 
 figure {
   width: 20%;
   padding: 5px 5px 10px 5px;
@@ -419,7 +425,7 @@ figure:hover:before {
 .cap-left figcaption { bottom: 10px; left: -50%; }
 .cap-left:hover figcaption { left: 0; }
 
-
+ */
 
 
 
@@ -463,7 +469,7 @@ figure:hover:before {
 
 
 
-
+/* 
 
   .style-1::-webkit-scrollbar-track
 {
@@ -489,7 +495,7 @@ figure:hover:before {
 .style-1::-webkit-scrollbar:hover{
 	display: none;
 	background-color: 
-}
+} */
 
 
 /*-----------------FORNECEDORES---------------------------*/
