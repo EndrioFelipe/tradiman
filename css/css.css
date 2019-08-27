@@ -1,15 +1,13 @@
 body {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
 section {
 	display: flex;
 	justify-content: center;
-	width: 95%;
-	height: 120px;
+	width: 100%;
 	overflow: auto;
-	margin: 0 2.5%;
 	overflow: hidden;
 	 
 }
@@ -67,6 +65,7 @@ section img{
 
 /*-----------Barra de Navegação-----------*/
 
+
 .nav{
 	background-color: #1e4c9a;
 
@@ -80,7 +79,7 @@ section img{
 }
 .nav-link:hover{
 	color:#02303F;
-}
+} 
 /* 
 .d-block{
 	max-height: 5%;
@@ -520,7 +519,7 @@ figure:hover:before {
 }
 
 section {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 section .section-title {
