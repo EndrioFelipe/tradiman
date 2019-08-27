@@ -79,7 +79,7 @@ p{
 /*-----------Título-----------*/
 
 .titulo{
-	margin-top: 50px;
+	margin-top: 130px;
 	margin-bottom: 50px;
 	background-color: #1e4c9a;
 	color: white;
@@ -237,7 +237,7 @@ float: left;
 /* ----------------------HR------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3.5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /*------------------------------QUEM SOMOS----------------------------*/
