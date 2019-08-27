@@ -12,12 +12,18 @@ section {
 	 
 }
 
+section {
+  padding: 10px 0;
+} 
+
 .qs {
 	text-align: center;
 }
 
 
 section img{
+  width: 40%;
+  min-width: 100px;
 	position: relative;
 		top: 10px;
 }
@@ -29,7 +35,6 @@ section img{
 }
 
 
-
 .item {
 	width: 100px;
 	height: 120px;
@@ -39,15 +44,33 @@ section img{
 	font-size: 3em;
 }
 
-.item p{
-	letter-spacing: .25em;
+@media (min-width:0px) and (max-width:1023px){
+  .item {
+    font-size: 2em;
+  }
+  section {
+    padding: -10px 0;
+  }
 }
 
+p{
+  margin-bottom: 0rem;
+}
+
+/* @media (min-width:0px) and (max-width:1023px){ */
+    .item p{
+      letter-spacing: .05em;
+    }
+/* } */
+
+
+  .item p{
+    letter-spacing: .25em;
+  }
+
+
 .pecas {
-	margin:; 0 auto;
-	display: inline-block;
-	position: relative;
-	bottom: 65px;
+
 	font-size: 0.35em;
 	color: rgb(17, 35, 43);
 
@@ -518,10 +541,6 @@ figure:hover:before {
     border-color: #007b5e;
 }
 
-section {
-    padding: 10px 0;
-}
-
 section .section-title {
     text-align: center;
     color: #007b5e;
@@ -613,12 +632,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #1e4c9a !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #1e4c9a !important;
 }
 
 .frontside .card .card-body img {
@@ -723,9 +742,7 @@ section .section-title {
 }
 
 .popup a:hover{
-	background-color: lightgrey;
-
-	padding: 36px 75px;
+	text-decoration: underline;
 }
 
 /* Popup arrow */
